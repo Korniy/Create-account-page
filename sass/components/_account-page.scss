@@ -85,5 +85,41 @@
 
     line-height: 1.3; /* 26/20 */
 }
+// .form__input:not(:last-child) {
+//     margin-bottom: 15px;
+// }
+.form__items {
+    display: grid;
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
 .form__input {
+    padding: 0;
+
+    height: 48px;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+
+    transition: border-bottom 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+        padding-left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-bottom: 1px solid #000000;
+    }
+    &:focus {
+        padding-left: 20px;
+    }
+    &::placeholder {
+        line-height: 1.3; /* 26/20 */
+        color: #000000;
+
+        transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:focus::placeholder {
+        opacity: 0;
+    }
 }
