@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Шрифти Google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Space+Grotesk:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Нормалізатор стилів -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Таблиця стилів -->
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Create an account</title>
+  </head>
+  <body>
+    <main class="account">
+      <div class="account__left-side">
+        <h1 class="account__title">Turn your ideas into reality</h1>
+        <p class="account__text">Start for free and get attractive offers from the community</p>
+      </div>
+
+      <div class="account__content">
+        <div class="account__inset">
+          <a href="#" class="account__logo">Interactive Brand</a>
+          <form action="#" method="post" class="account__form">
+            <h2 class="form__title">Create an account</h2>
+            <p class="form__text">Let’s get started with your 30day free trial.</p>
+            <div class="form__items">
+              <input
+                required
+                type="text"
+                name="username"
+                placeholder="Username"
+                class="form__input"
+              />
+              <input required type="email" name="email" placeholder="Email" class="form__input" />
+              <input
+                required
+                type="password"
+                name="password"
+                placeholder="password"
+                class="form__input"
+              />
+            </div>
+            <div class="form__actions">
+              <button type="submit" class="form__buttom">Create account</button>
+              <div class="form__or"><span>or</span></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
