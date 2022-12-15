@@ -1,0 +1,33 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+h1,
+h2,
+h3,
+ul,
+ol,
+p {
+    padding: 0;
+    margin: 0;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    cursor: pointer;
+    background-color: inherit;
+}
+// button,
+// input {
+//     font-weight: inherit;
+//     font-size: inherit;
+//     color: inherit;
+//     font-family: inherit;
+// }
