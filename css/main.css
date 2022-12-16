@@ -308,4 +308,19 @@ button {
 .account__login-link:hover, .account__login-link:focus {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1030px) {
+  .account {
+    display: block;
+  }
+  .account__left-side,
+  .account__content {
+    padding: 15px;
+  }
+  .account__inset {
+    gap: 34px;
+    min-width: 0;
+    max-width: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */
