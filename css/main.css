@@ -127,6 +127,8 @@ button {
   line-height: 1.35;
   /* 27/20 */
   color: #1d1d1b;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
   background: url("../img/icons/Frame.svg") left/24px no-repeat;
 }
 
